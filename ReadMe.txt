@@ -1,0 +1,1 @@
+This is the readme file for the WiFiGPSMapping project by Tay Wen Jie and See JiongXu.
