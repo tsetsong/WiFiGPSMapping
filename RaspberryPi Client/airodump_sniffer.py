@@ -2,7 +2,25 @@ import subprocess
 import signal
 import time
 
+from wifi import Cell, Scheme
+
+home_bssid = 'BC:EE:7B:E8:02:76'
+home_essid = 'JX-Test-Network'
+home_password = 'P@ssw0rd123'
+is_at_home = False
+
+bssid_history = []
+
+
+def kill_processes():
+	
+	subprocess.call(["killall", "dhclient"])
+	subprocess.call(["killall", "NetworkManager"])
+	subprocess.call(["killall", "wpa_supplicant"])
+
 def start_mon(iface):
+	
+	kill_processes()
 	
 	subprocess.call(["ifconfig", iface, "down"])
 	subprocess.call(["iwconfig", iface, "mode", "monitor"])
@@ -64,21 +82,71 @@ def start_sniff(mon_iface, timeout):
 			if line[2] is ':':
 				data = line.split()
 				data_list.append(data)
-				bssid_count += 1
 				
 		except:
 			pass #Ignore error.
 		
 		if line.find("\x1b[1;1H") >= 0:
 			data_list = []
-			bssid_count = 0
-	print "Number of networks found:", bssid_count
 	return data_list
+
+def generate_conf(ssid, password):
 	
-mon_iface = get_mon_iface()
+	config_file = open('/etc/wpa_supplicant/wpa_supplicant.conf', 'w')
+	
+	config = subprocess.Popen(['wpa_passphrase', ssid, password], stdout = subprocess.PIPE)
 
-cell_table = start_sniff(mon_iface, 5)
+	for line in config.stdout:
+		config_file.write(line)
+		
+	print "Generating Configuration File."
+	
+def connect_home(iface):
+	
+	wpa_connect = subprocess.Popen(['wpa_supplicant', '-B','-Dwext','-i'+iface,'-c/etc/wpa_supplicant/wpa_supplicant.conf'], stdout = subprocess.PIPE, stderr = subprocess.PIPE)
+	
+	print "Connecting to Home Network."
+	
+def get_ip_addr(iface):
+	subprocess.call(['dhclient', iface])
+	print "Getting IP Address."
+	
+def test_con(iface):
+	des = "192.168.1.1"
+	n = '4'
+	ping_test = subprocess.Popen(['ping', des, '-I', iface, '-c', n], stdout = subprocess.PIPE)
+	
+	for line in ping_test.stdout:
+		pass
 
-for line in cell_table:
-	print line
-#stop_mon(mon_iface)
+def get_gateway(iface):
+	
+	return gateway
+		
+try:	
+	mon_iface = get_mon_iface()
+	
+	while True:
+
+		cell_table = start_sniff(mon_iface, 5)
+		for line in cell_table:
+			if line[0] not in bssid_history: #Check if BSSID already detected.
+				print 'Found', line[0]
+				bssid_history.append(line[0])
+			
+			if (line[0] == home_bssid): #Check if home network found.
+				is_at_home = True
+				
+		if is_at_home:
+			print "Home Network Found."
+			generate_conf(home_essid, home_password)
+			stop_mon(mon_iface)
+			connect_home(mon_iface)
+			get_ip_addr(mon_iface)
+			test_con(mon_iface)
+			break
+			
+	#FTP/TCP Sending code here:
+			
+except(KeyboardInterrupt):
+	print "\nCtrl-C Detected! Exiting..."
