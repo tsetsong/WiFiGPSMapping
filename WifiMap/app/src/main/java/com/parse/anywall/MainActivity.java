@@ -187,7 +187,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
         ssidView.setText("SSID : "+post.getSsid());
         bssidView.setText("BSSID : "+post.getBssid());
           securityView.setText("Protocol : " + post.getSecurity());
-        if(post.getSecurity().equals("WEP")) {
+        if(post.getSecurity().equals(" WEP")|| post.getSecurity().equals(" OPN")) {
 
             securityView.setTextColor(Color.RED);
         }
