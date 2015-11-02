@@ -13,5 +13,14 @@
     <string name="settings_distance_format">%d feet</string>
     <string name="exit">Exit</string>
 
+    <string name="view_filter">Search Security Type:</string>
+
+
+    <string-array name="security_spinner">
+        <item>All</item>
+        <item>WPA2/WEP</item>
+        <item>WEP or OPN</item>
+    </string-array>
+
 
 </resources>

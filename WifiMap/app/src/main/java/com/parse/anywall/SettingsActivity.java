@@ -6,10 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
+import android.widget.Spinner;
 
 
 import java.util.Collections;
@@ -27,6 +29,12 @@ public class SettingsActivity extends Activity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_settings);
 
+    Spinner filterSpinner = (Spinner) findViewById(R.id.filter_spinner);
+    // Create an ArrayAdapter using the string array  security _spinner and a default spinner layout
+    ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.security_spinner, android.R.layout.simple_spinner_item);
+    // Specify the layout to use when the list of choices appears
+    adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+  filterSpinner.setAdapter(adapter);
 
 
     float currentSearchDistance = Application.getSearchDistance();

@@ -573,8 +573,8 @@ public class MainActivity extends FragmentActivity implements LocationListener,
                             oldMarker.remove();
                         }
                     }
-                    // Display a red marker with security protocol WEP
-                    if (post.getSecurity().equals("WEP")) {
+                    // Display a red marker with security protocol WEP or OPN
+                    if (post.getSecurity().equals(" WEP")||post.getSecurity().equals(" OPN") ) {
                         markerOpts =
                                 markerOpts.title(post.getSsid()).snippet(post.getSecurity()).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
 
