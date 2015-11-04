@@ -2,8 +2,11 @@ package com.parse.anywall;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ArrayAdapter;
@@ -29,12 +32,13 @@ public class SettingsActivity extends Activity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_settings);
 
-    Spinner filterSpinner = (Spinner) findViewById(R.id.filter_spinner);
+    final Spinner filterSpinner = (Spinner) findViewById(R.id.filter_spinner);
     // Create an ArrayAdapter using the string array  security _spinner and a default spinner layout
     ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.security_spinner, android.R.layout.simple_spinner_item);
     // Specify the layout to use when the list of choices appears
     adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
   filterSpinner.setAdapter(adapter);
+
 
 
     float currentSearchDistance = Application.getSearchDistance();
@@ -70,6 +74,12 @@ public class SettingsActivity extends Activity {
     Button refresh = (Button) findViewById(R.id.refresh_button);
     refresh.setOnClickListener(new OnClickListener() {
       public void onClick(View v) {
+
+        SharedPreferences sp=getSharedPreferences("FilterMode", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor=sp.edit();
+        editor.putString("filter",filterSpinner.getSelectedItem().toString());
+        editor.commit();
+        Log.d("DEBUG", filterSpinner.getSelectedItem().toString()+ ":sp put string");
         // Start and intent for the dispatch activity
         Intent intent = new Intent(SettingsActivity.this, DispatchActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);

@@ -9,8 +9,10 @@ import java.util.Set;
 import android.app.Activity;
 import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.content.IntentSender;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.location.Location;
 import android.os.Bundle;
@@ -133,6 +135,9 @@ public class MainActivity extends FragmentActivity implements LocationListener,
   // Adapter for the Parse query
   private ParseQueryAdapter<WirelessNetwork> postsQueryAdapter;
 
+  //Default Settings filtering for SharedPreference
+  private static final String FILTER_DEFAULT="All";
+
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -181,24 +186,51 @@ public class MainActivity extends FragmentActivity implements LocationListener,
           view = View.inflate(getContext(), R.layout.list_network, null);
         }
 
+        SharedPreferences sp=getSharedPreferences("FilterMode", Context.MODE_PRIVATE);
+        String setting=sp.getString("filter",FILTER_DEFAULT);
+        Log.d("DEBUG",setting+":sp get String");
         TextView ssidView = (TextView) view.findViewById(R.id.ssid_view);
         TextView bssidView = (TextView) view.findViewById(R.id.bssid_view);
+        TextView rssiView = (TextView) view.findViewById(R.id.rssi_view);
         TextView securityView = (TextView) view.findViewById(R.id.security_view);
-        ssidView.setText("SSID : "+post.getSsid());
-        bssidView.setText("BSSID : "+post.getBssid());
-          securityView.setText("Protocol : " + post.getSecurity());
-        if(post.getSecurity().equals(" WEP")|| post.getSecurity().equals(" OPN")) {
+
+        if(setting.equals("WEP or OPN")) {
+
+            if (post.getSecurity().equals(" WEP") || post.getSecurity().equals(" OPN")) {
+                ssidView.setText("SSID : " + post.getSsid());
+                bssidView.setText("BSSID : " + post.getBssid());
+                rssiView.setText("RSSI : " +post.getRssi());
+                securityView.setText("Protocol : " + post.getSecurity());
+            }
+        }
+        else if(setting.equals("WPA2/WPA")) {
+            if (post.getSecurity().equals(" WPA2") || post.getSecurity().equals(" WPA")) {
+                ssidView.setText("SSID : " + post.getSsid());
+                bssidView.setText("BSSID : " + post.getBssid());
+              rssiView.setText("RSSI : " +post.getRssi());
+                securityView.setText("Protocol : " + post.getSecurity());
+            }
+        }
+        else {
+                ssidView.setText("SSID : " + post.getSsid());
+                bssidView.setText("BSSID : " + post.getBssid());
+                rssiView.setText("RSSI : " +post.getRssi());
+                securityView.setText("Protocol : " + post.getSecurity());
+        }
+
+
+          if (post.getSecurity().equals(" WEP") || post.getSecurity().equals(" OPN")) {
 
             securityView.setTextColor(Color.RED);
-        }
-          else
-        {
+          } else {
             securityView.setTextColor(Color.GREEN);
-        }
+          }
 
-        return view;
+          return view;
       }
     };
+
+
 
     // Disable automatic loading when the adapter is attached to a view.
     postsQueryAdapter.setAutoload(false);
@@ -249,6 +281,9 @@ public class MainActivity extends FragmentActivity implements LocationListener,
 
 
   }
+    public void SettingTextListView(){
+
+    }
 
   /*
    * Called when the Activity is no longer visible at all. Stop updates and disconnect.
@@ -387,7 +422,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
    */
   public void onConnected(Bundle bundle) {
     if (Application.APPDEBUG) {
-      Log.d("Connected to location services", Application.APPTAG);
+     // Log.d("Connected to location services", Application.APPTAG);
     }
     currentLocation = getLocation();
     startPeriodicUpdates();
@@ -398,7 +433,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
    */
   public void onDisconnected() {
     if (Application.APPDEBUG) {
-      Log.d("Disconnected from location services", Application.APPTAG);
+      //Log.d("Disconnected from location services", Application.APPTAG);
     }
   }
 
@@ -537,14 +572,30 @@ public class MainActivity extends FragmentActivity implements LocationListener,
             Set<String> toKeep = new HashSet<String>();
             // Loop through the results of the search
             for (WirelessNetwork post : objects) {
+
+              SharedPreferences sp=getSharedPreferences("FilterMode", Context.MODE_PRIVATE);
+              String setting=sp.getString("filter", FILTER_DEFAULT);
+
+              if(setting.equals("WEP or OPN")) {
                 // Add this post to the list of map pins to keep
+                if(post.getSecurity().equals(" WEP") || post.getSecurity().equals(" OPN"))
                 toKeep.add(post.getObjectId());
-                // Check for an existing marker for this post
+              }
+              else if(setting.equals("WPA2/WPA"))
+              {
+                if(post.getSecurity().equals(" WPA2") || post.getSecurity().equals(" WPA"))
+                  toKeep.add(post.getObjectId());
+              }
+              else
+              {
+                toKeep.add(post.getObjectId());
+              }
+              // Check for an existing marker for this post
                 Marker oldMarker = mapMarkers.get(post.getObjectId());
-                // Set up the map marker's location
-                MarkerOptions markerOpts =
-                        new MarkerOptions().position(new LatLng(post.getLocation().getLatitude(), post
-                                .getLocation().getLongitude()));
+
+              MarkerOptions markerOpts =
+                      new MarkerOptions().position(new LatLng(post.getLocation().getLatitude(), post
+                              .getLocation().getLongitude()));
                 // Set up the marker properties based on if it is within the search radius
                 if (post.getLocation().distanceInKilometersTo(myPoint) > radius * METERS_PER_FEET
                         / METERS_PER_KILOMETER) {
@@ -573,23 +624,30 @@ public class MainActivity extends FragmentActivity implements LocationListener,
                             oldMarker.remove();
                         }
                     }
-                    // Display a red marker with security protocol WEP or OPN
-                    if (post.getSecurity().equals(" WEP")||post.getSecurity().equals(" OPN") ) {
-                        markerOpts =
-                                markerOpts.title(post.getSsid()).snippet(post.getSecurity()).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
 
-                    }
-                    // Display a green marker with security protocol WPA/WPA2
+
+
+
+                        // Display a red marker with security protocol WEP or OPN
+                        if (post.getSecurity().equals(" WEP") || post.getSecurity().equals(" OPN")) {
+                            markerOpts =
+                                    markerOpts.title(post.getSsid()).snippet(post.getSecurity()).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
+
+                        }
+
+
+                        // Display a green marker with security protocol WPA/WPA2
                     else {
 
-                        markerOpts =
-                                markerOpts.title(post.getSsid()).snippet(post.getSecurity())
-                                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
-                    }
+                            markerOpts =
+                                    markerOpts.title(post.getSsid()).snippet(post.getSecurity())
+                                            .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
+                        }
+
                 }
                 // Add a new marker
-                Marker marker = mapFragment.getMap().addMarker(markerOpts);
-                mapMarkers.put(post.getObjectId(), marker);
+              Marker marker = mapFragment.getMap().addMarker(markerOpts);
+              mapMarkers.put(post.getObjectId(), marker);
                 if (post.getObjectId().equals(selectedPostObjectId)) {
                     marker.showInfoWindow();
                     selectedPostObjectId = null;

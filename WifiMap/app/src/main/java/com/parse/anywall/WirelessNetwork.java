@@ -32,6 +32,10 @@ public class WirelessNetwork extends ParseObject {
     return getString("security");
   }
 
+  public String getRssi(){
+    return getString("rssi");
+  }
+
   public static ParseQuery<WirelessNetwork> getQuery() {
     return ParseQuery.getQuery(WirelessNetwork.class);
   }

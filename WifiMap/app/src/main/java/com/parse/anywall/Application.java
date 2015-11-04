@@ -34,7 +34,7 @@ public class Application extends android.app.Application {
     //Setup Parse
     Parse.initialize(this, "HcbZRxgwdVIfIXdIgZKC4wRmitpOdSUZpgJbEUni", "YoL2ZyyhhZjoVNPD9JWMQ42cVxL8OtOR2FEGKCA4");
 
-    preferences = getSharedPreferences("com.parse.anywall", Context.MODE_PRIVATE);
+    preferences = getSharedPreferences("searchDistance", Context.MODE_PRIVATE);
 
     configHelper = new ConfigHelper();
     configHelper.fetchConfigIfNeeded();
