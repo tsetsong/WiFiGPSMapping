@@ -188,7 +188,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
 
         SharedPreferences sp=getSharedPreferences("FilterMode", Context.MODE_PRIVATE);
         String setting=sp.getString("filter",FILTER_DEFAULT);
-        Log.d("DEBUG",setting+":sp get String");
+        //Log.d("DEBUG",setting+":sp get String");
         TextView ssidView = (TextView) view.findViewById(R.id.ssid_view);
         TextView bssidView = (TextView) view.findViewById(R.id.bssid_view);
         TextView rssiView = (TextView) view.findViewById(R.id.rssi_view);
@@ -362,7 +362,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
 
             if (Application.APPDEBUG) {
               // Log the result
-              Log.d(Application.APPTAG, "Connected to Google Play services");
+              //Log.d(Application.APPTAG, "Connected to Google Play services");
             }
 
             break;
@@ -371,7 +371,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
           default:
             if (Application.APPDEBUG) {
               // Log the result
-              Log.d(Application.APPTAG, "Could not connect to Google Play services");
+              //Log.d(Application.APPTAG, "Could not connect to Google Play services");
             }
             break;
         }
@@ -380,7 +380,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
       default:
         if (Application.APPDEBUG) {
           // Report that this Activity received an unknown requestCode
-          Log.d(Application.APPTAG, "Unknown request code received for the activity");
+          //Log.d(Application.APPTAG, "Unknown request code received for the activity");
         }
         break;
     }
@@ -399,7 +399,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
     if (ConnectionResult.SUCCESS == resultCode) {
       if (Application.APPDEBUG) {
         // In debug mode, log the status
-        Log.d(Application.APPTAG, "Google play services available");
+        //Log.d(Application.APPTAG, "Google play services available");
       }
       // Continue
       return true;
@@ -439,7 +439,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
 
   @Override
   public void onConnectionSuspended(int i) {
-       Log.i(Application.APPTAG, "GoogleApiClient connection has been suspend");
+       //Log.i(Application.APPTAG, "GoogleApiClient connection has been suspend");
   }
 
   /*
@@ -458,7 +458,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
 
         if (Application.APPDEBUG) {
           // Thrown if Google Play services canceled the original PendingIntent
-          Log.d(Application.APPTAG, "An error occurred when connecting to location services.", e);
+         // Log.d(Application.APPTAG, "An error occurred when connecting to location services.", e);
         }
       }
     } else {
@@ -556,7 +556,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
         public void done(List<WirelessNetwork> objects, ParseException e) {
             if (e != null) {
                 if (Application.APPDEBUG) {
-                    Log.d(Application.APPTAG, "An error occurred while querying for map posts.", e);
+                    //Log.d(Application.APPTAG, "An error occurred while querying for map posts.", e);
                 }
                 return;
             }
@@ -631,7 +631,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
                         // Display a red marker with security protocol WEP or OPN
                         if (post.getSecurity().equals(" WEP") || post.getSecurity().equals(" OPN")) {
                             markerOpts =
-                                    markerOpts.title(post.getSsid()).snippet(post.getSecurity()).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
+                                    markerOpts.title("SSID :" +post.getSsid()).snippet("Protocol :" +post.getSecurity()).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
 
                         }
 
@@ -640,7 +640,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
                     else {
 
                             markerOpts =
-                                    markerOpts.title(post.getSsid()).snippet(post.getSecurity())
+                                    markerOpts.title("SSID :" +post.getSsid()).snippet("Protocol :" +post.getSecurity())
                                             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
                         }
 

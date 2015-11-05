@@ -79,7 +79,8 @@ public class SettingsActivity extends Activity {
         SharedPreferences.Editor editor=sp.edit();
         editor.putString("filter",filterSpinner.getSelectedItem().toString());
         editor.commit();
-        Log.d("DEBUG", filterSpinner.getSelectedItem().toString()+ ":sp put string");
+        //To check spinner data is been saved in SharedPreferences
+        //Log.d("DEBUG", filterSpinner.getSelectedItem().toString()+ ":sp put string");
         // Start and intent for the dispatch activity
         Intent intent = new Intent(SettingsActivity.this, DispatchActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);

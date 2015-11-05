@@ -656,7 +656,7 @@ public final class R {
 		public static final int mr_media_route_controller_stop = 0x7f060047;
 		public static final int mr_system_route_name = 0x7f06002f;
 		public static final int mr_user_route_category_name = 0x7f060030;
-		public static final int status_bar_notification_info_overflow = 0x7f06004f;
+		public static final int status_bar_notification_info_overflow = 0x7f06004c;
 	}
 	public static final class style {
 		public static final int AlertDialog_AppCompat = 0x7f080075;

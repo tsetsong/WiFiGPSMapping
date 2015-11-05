@@ -2305,18 +2305,15 @@ containing a value of this type.
         public static final int mr_media_route_controller_stop=0x7f060047;
         public static final int mr_system_route_name=0x7f06002f;
         public static final int mr_user_route_category_name=0x7f060030;
-        public static final int post=0x7f060048;
-        public static final int post_out_of_range=0x7f060049;
-        public static final int progress_post=0x7f06004a;
-        public static final int prompt_post=0x7f06004b;
-        public static final int refresh=0x7f06004c;
-        public static final int search_distance=0x7f06004d;
-        public static final int settings_distance_format=0x7f06004e;
-        public static final int status_bar_notification_info_overflow=0x7f06004f;
-        public static final int store_picture_message=0x7f060050;
-        public static final int store_picture_title=0x7f060051;
-        public static final int title_activity_settings=0x7f060052;
-        public static final int view_filter=0x7f060053;
+        public static final int post_out_of_range=0x7f060048;
+        public static final int refresh=0x7f060049;
+        public static final int search_distance=0x7f06004a;
+        public static final int settings_distance_format=0x7f06004b;
+        public static final int status_bar_notification_info_overflow=0x7f06004c;
+        public static final int store_picture_message=0x7f06004d;
+        public static final int store_picture_title=0x7f06004e;
+        public static final int title_activity_settings=0x7f06004f;
+        public static final int view_filter=0x7f060050;
         public static final int wallet_buy_button_place_holder=0x7f060031;
     }
     public static final class style {
