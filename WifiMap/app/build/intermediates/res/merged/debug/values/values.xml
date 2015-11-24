@@ -5,7 +5,7 @@
     <string-array name="security_spinner">
         <item>All</item>
         <item>WPA2/WPA</item>
-        <item>WEP or OPN</item>
+        <item>WEP or OPEN</item>
     </string-array>
     <!-- From: file:/Z:/WiFiGPSMapping/WifiMap/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>

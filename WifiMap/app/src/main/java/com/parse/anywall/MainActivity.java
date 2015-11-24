@@ -1,5 +1,7 @@
 package com.parse.anywall;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -170,9 +172,21 @@ public class MainActivity extends FragmentActivity implements LocationListener,
           public ParseQuery<WirelessNetwork> create() {
             Location myLoc = (currentLocation == null) ? lastLocation : currentLocation;
             ParseQuery<WirelessNetwork> query = WirelessNetwork.getQuery();
-            query.orderByDescending("createdAt");
+              SharedPreferences sp=getSharedPreferences("FilterMode", Context.MODE_PRIVATE);
+              String setting=sp.getString("filter", FILTER_DEFAULT);
+            //TODO
+              if(setting.equals("WEP or OPEN")){
+                  String[] securityRed={" WEP"," OPN"};
+                  query.whereContainedIn("security", Arrays.asList(securityRed));
+              }
+              if(setting.equals("WPA2/WPA")){
+                  String[] securityGreen={" WPA2"," WPA"};
+                  query.whereContainedIn("security", Arrays.asList(securityGreen));
+
+              }
+              query.orderByDescending("createdAt");
             query.whereWithinKilometers("location", geoPointFromLocation(myLoc), radius
-                * METERS_PER_FEET / METERS_PER_KILOMETER);
+                    * METERS_PER_FEET / METERS_PER_KILOMETER);
             query.setLimit(MAX_POST_SEARCH_RESULTS);
             return query;
           }
@@ -194,37 +208,20 @@ public class MainActivity extends FragmentActivity implements LocationListener,
         TextView rssiView = (TextView) view.findViewById(R.id.rssi_view);
         TextView securityView = (TextView) view.findViewById(R.id.security_view);
 
-        if(setting.equals("WEP or OPN")) {
 
-            if (post.getSecurity().equals(" WEP") || post.getSecurity().equals(" OPN")) {
+
                 ssidView.setText("SSID : " + post.getSsid());
                 bssidView.setText("BSSID : " + post.getBssid());
                 rssiView.setText("RSSI : " +post.getRssi());
                 securityView.setText("Protocol : " + post.getSecurity());
-            }
-        }
-        else if(setting.equals("WPA2/WPA")) {
-            if (post.getSecurity().equals(" WPA2") || post.getSecurity().equals(" WPA")) {
-                ssidView.setText("SSID : " + post.getSsid());
-                bssidView.setText("BSSID : " + post.getBssid());
-              rssiView.setText("RSSI : " +post.getRssi());
-                securityView.setText("Protocol : " + post.getSecurity());
-            }
-        }
-        else {
-                ssidView.setText("SSID : " + post.getSsid());
-                bssidView.setText("BSSID : " + post.getBssid());
-                rssiView.setText("RSSI : " +post.getRssi());
-                securityView.setText("Protocol : " + post.getSecurity());
-        }
 
-
-          if (post.getSecurity().equals(" WEP") || post.getSecurity().equals(" OPN")) {
-
+          if (post.getSecurity().equals(" WEP") || post.getSecurity().equals(" OPN"))
+          {
             securityView.setTextColor(Color.RED);
           } else {
             securityView.setTextColor(Color.GREEN);
           }
+
 
           return view;
       }
@@ -576,7 +573,7 @@ public class MainActivity extends FragmentActivity implements LocationListener,
               SharedPreferences sp=getSharedPreferences("FilterMode", Context.MODE_PRIVATE);
               String setting=sp.getString("filter", FILTER_DEFAULT);
 
-              if(setting.equals("WEP or OPN")) {
+              if(setting.equals("WEP or OPEN")) {
                 // Add this post to the list of map pins to keep
                 if(post.getSecurity().equals(" WEP") || post.getSecurity().equals(" OPN"))
                 toKeep.add(post.getObjectId());
@@ -624,10 +621,6 @@ public class MainActivity extends FragmentActivity implements LocationListener,
                             oldMarker.remove();
                         }
                     }
-
-
-
-
                         // Display a red marker with security protocol WEP or OPN
                         if (post.getSecurity().equals(" WEP") || post.getSecurity().equals(" OPN")) {
                             markerOpts =
@@ -635,10 +628,8 @@ public class MainActivity extends FragmentActivity implements LocationListener,
 
                         }
 
-
                         // Display a green marker with security protocol WPA/WPA2
                     else {
-
                             markerOpts =
                                     markerOpts.title("SSID :" +post.getSsid()).snippet("Protocol :" +post.getSecurity())
                                             .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));

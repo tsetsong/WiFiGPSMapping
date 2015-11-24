@@ -16,7 +16,7 @@
     <string-array name="security_spinner">
         <item>All</item>
         <item>WPA2/WPA</item>
-        <item>WEP or OPN</item>
+        <item>WEP or OPEN</item>
     </string-array>
 
 

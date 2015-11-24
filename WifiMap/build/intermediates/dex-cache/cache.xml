@@ -2,165 +2,11 @@
 <items version="2" >
 
     <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-3808ce3481bb436d5eddbe3e6f2eeaeba799fc0b.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-4c70f45e9e0702370388bf7e542bcaab50892e83.jar" />
-    </item>
-    <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="3178362320bcf51228835b60ff978efadfd1f783">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-43344daadf97010ee13a5969d57839b02208dd3d.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-87c4a3c05ee2da533104998620cd4c06b3052fc2.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-2c609a87a4e528d8f1689fdcb10522eaba35083f.jar" />
-    </item>
-    <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-593033d45302ba02f5f97e88aeee6c7a6aaa3044.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-a395270c78f72ac577185fbd1a9920eacf45b1b5.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-5a20b88def98eeeb315aa5eeebcfb0dbe1fed0db.jar" />
-    </item>
-    <item
         jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.8.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
         <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-62a1e8b9f90cf3e9b0b7fc317eb8cd4ece4730cb.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-90e5a9ed8805ad0b2967344e196db4f6d7393e67.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-e7ed8d88133178c08a7b15eb68762b7946040522.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\libs\Parse-1.6.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="2a812174191af5a4513a873602a765b0171f252c">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\Parse-1.6.0-e2870f0db0c50dd9c3a1f84e0715cd65cf50df5a.jar" />
-    </item>
-    <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-69cd0c6bad027a4295fbbf8d04467983216e99fd.jar" />
-    </item>
-    <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="95758a2905669affbffc5ddd262921d375674fad">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-97414b948d299ef80c7a8144a64d5bf4affa47e4.jar" />
-    </item>
-    <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-d84e092f454c69bdd78b96e5a31b2c3c9564b108.jar" />
-    </item>
-    <item
-        jar="C:\Users\Tay\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-de0d9851710084ac8cc5bd810bfb320d25da471f.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-4f1c6bb23e0d9c2c0c0183b7166107fe823f2570.jar" />
-    </item>
-    <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-ece6aa643b8662db5ebbd50794e6db3e9a5053df.jar" />
-    </item>
-    <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="997773777cf3904c11d6764fe3b7668538220e49">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-7a6766873051398fc971ca25833dfe23bd31c7f0.jar" />
-    </item>
-    <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-2068406d90cc92bd84c504b835ada1316a61a98c.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-eda98d61c47e014ff8d2067f88780637f79df813.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="2e24e5f1b11170163028277de63f709e42525db4">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-0c052495d29d39f98f00531fb9e9002168c2bf8d.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-0cb3abdf65263638772f34d19592549b9572bef6.jar" />
     </item>
     <item
         jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.1.0\jars\classes.jar"
@@ -170,158 +16,11 @@
         <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-e5044d9474ec4c11a73c8a45b4c04aa4bd6f67fb.jar" />
     </item>
     <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-92bd886770653645f76381ea29c2b816458e1859.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-b5174b85878af6f672d3da9aef577212b336cd52.jar" />
-    </item>
-    <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-1b7cee95c4304ce72c5da248047ee01b77ddf1d8.jar" />
-    </item>
-    <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-3ea9ff41ab361a55d9b52a29c2a0acefe1a01b1c.jar" />
-    </item>
-    <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-137ea14be211f3841ffad08de2ee5a6e6078d659.jar" />
-    </item>
-    <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="482de223655d06253cc6a4955d653f8994169500">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-e2e35c866f533b0d97f6028247c1270ca88bc80d.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-af378ab31fc0abab01b020627b3fa722d3346698.jar" />
-    </item>
-    <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-6adde1aaacead18b7a8a1981bf23d2ee65d5d005.jar" />
-    </item>
-    <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-bbe713909c79a3237b2a576924237a491799e26c.jar" />
-    </item>
-    <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\libs\Parse-1.6.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="2a812174191af5a4513a873602a765b0171f252c">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\Parse-1.6.0-e548aaa892bf49faac160d326273355063610d0e.jar" />
-    </item>
-    <item
-        jar="C:\Users\Tay\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-9b8b70d8cc61cae808e81b22d54173801e01a68e.jar" />
-    </item>
-    <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-c8e6b64fc14a67231d178f11f576dd2705061e69.jar" />
-    </item>
-    <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="17449c47df35c754b257532052f1270c444f7993">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-23d8ca0b4ec8ff62fc178e286adb6d68a0378959.jar" />
-    </item>
-    <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-088e960fa08f454dd47ac8ad69e49c1c1b07f5db.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-27916cd5ee30f7af3aad2120d4d0bb81926e2e19.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-23b90c8e74aeadee7f25f8c7fa26e40af2511476.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-a6b507cd6da8403185893546ba41e1d77ab505cf.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-61797d22613b5c22c7482d49ca20ef0bec90e069.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-bb6e4d728d6949d9d9e2fc4c6bcc7c21a2f729ff.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.8.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-349a051c35d2166e58b4ad095c1842ca835b9798.jar" />
-    </item>
-    <item
         jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
         <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-3e3042fd69a78f6cb05ebeefb07cdd60ffe792db.jar" />
-    </item>
-    <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-c1c4a5dfcb50847e4b3e37532ce6b59e89c4282f.jar" />
     </item>
     <item
         jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
@@ -331,25 +30,11 @@
         <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-b5d56635815e4311a72d0420aa604c7df1665de0.jar" />
     </item>
     <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.8.0\jars\classes.jar"
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-b3cac25fe7e9387214577a579d0737b74f2fe197.jar" />
-    </item>
-    <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-c16353d88d669c67421b13784fda3e8d6223ef6b.jar" />
-    </item>
-    <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-bebeadbadd21cbb98c8058c7d0f7d3da7f1d6019.jar" />
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-e7ed8d88133178c08a7b15eb68762b7946040522.jar" />
     </item>
     <item
         jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
@@ -359,11 +44,144 @@
         <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-0a0d04e52fae4783ec7454da5887f01cd6d47bb6.jar" />
     </item>
     <item
-        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.8.0\jars\classes.jar"
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.8.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
-        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-1bac9f38d41df8e5419fd868de15a7ba1c52246c.jar" />
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-349a051c35d2166e58b4ad095c1842ca835b9798.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-69cd0c6bad027a4295fbbf8d04467983216e99fd.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-5a20b88def98eeeb315aa5eeebcfb0dbe1fed0db.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-4f1c6bb23e0d9c2c0c0183b7166107fe823f2570.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-bb6e4d728d6949d9d9e2fc4c6bcc7c21a2f729ff.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-2068406d90cc92bd84c504b835ada1316a61a98c.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-d84e092f454c69bdd78b96e5a31b2c3c9564b108.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="17449c47df35c754b257532052f1270c444f7993">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-23d8ca0b4ec8ff62fc178e286adb6d68a0378959.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-4c70f45e9e0702370388bf7e542bcaab50892e83.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-a395270c78f72ac577185fbd1a9920eacf45b1b5.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3178362320bcf51228835b60ff978efadfd1f783">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-43344daadf97010ee13a5969d57839b02208dd3d.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-a6b507cd6da8403185893546ba41e1d77ab505cf.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-137ea14be211f3841ffad08de2ee5a6e6078d659.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-2c609a87a4e528d8f1689fdcb10522eaba35083f.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-3ea9ff41ab361a55d9b52a29c2a0acefe1a01b1c.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-87c4a3c05ee2da533104998620cd4c06b3052fc2.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-c8e6b64fc14a67231d178f11f576dd2705061e69.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-3808ce3481bb436d5eddbe3e6f2eeaeba799fc0b.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-bebeadbadd21cbb98c8058c7d0f7d3da7f1d6019.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tay\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.3.0\8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c\bolts-tasks-1.3.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.3.0-84198472d05cce5c0cd663655fb6230738324f38.jar" />
     </item>
     <item
         jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.8.0\jars\classes.jar"
@@ -373,11 +191,32 @@
         <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-2de260076f99576d648035ac1dfa42e8000c7688.jar" />
     </item>
     <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-c1c4a5dfcb50847e4b3e37532ce6b59e89c4282f.jar" />
+    </item>
+    <item
         jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.1.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
         <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-13a02a719ba2854100215cd3247013a5775771e1.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-7c318734156f9b696c8607eb0f65f91c0e5c3d7c.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-c493b56b3e31d0829cccb91576fc4e7d09e0cf69.jar" />
     </item>
     <item
         jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.1.0\jars\classes.jar"
@@ -394,18 +233,186 @@
         <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.10.2-2f65f36916975d45b6d4722cff9fdad05f8528b9.jar" />
     </item>
     <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.1.0\jars\classes.jar"
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.8.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-c493b56b3e31d0829cccb91576fc4e7d09e0cf69.jar" />
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-b3cac25fe7e9387214577a579d0737b74f2fe197.jar" />
     </item>
     <item
-        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.1.0\jars\classes.jar"
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.1.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
-        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-7c318734156f9b696c8607eb0f65f91c0e5c3d7c.jar" />
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-97414b948d299ef80c7a8144a64d5bf4affa47e4.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-088e960fa08f454dd47ac8ad69e49c1c1b07f5db.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\libs\Parse-1.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2a812174191af5a4513a873602a765b0171f252c">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\Parse-1.6.0-e548aaa892bf49faac160d326273355063610d0e.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-61797d22613b5c22c7482d49ca20ef0bec90e069.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-1bac9f38d41df8e5419fd868de15a7ba1c52246c.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-ece6aa643b8662db5ebbd50794e6db3e9a5053df.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-eda98d61c47e014ff8d2067f88780637f79df813.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-0c052495d29d39f98f00531fb9e9002168c2bf8d.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-c16353d88d669c67421b13784fda3e8d6223ef6b.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-e2e35c866f533b0d97f6028247c1270ca88bc80d.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-bbe713909c79a3237b2a576924237a491799e26c.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-90e5a9ed8805ad0b2967344e196db4f6d7393e67.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-af378ab31fc0abab01b020627b3fa722d3346698.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tay\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-de0d9851710084ac8cc5bd810bfb320d25da471f.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-593033d45302ba02f5f97e88aeee6c7a6aaa3044.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-23b90c8e74aeadee7f25f8c7fa26e40af2511476.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-27916cd5ee30f7af3aad2120d4d0bb81926e2e19.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\libs\Parse-1.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2a812174191af5a4513a873602a765b0171f252c">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\Parse-1.6.0-e2870f0db0c50dd9c3a1f84e0715cd65cf50df5a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Tay\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.3.0\bc535105332645408ef5f1380215cc954b842178\bolts-applinks-1.3.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bc535105332645408ef5f1380215cc954b842178">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.3.0-280c0895da7ae071c83d092f0c0258bbff7d46b8.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-b5174b85878af6f672d3da9aef577212b336cd52.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-92bd886770653645f76381ea29c2b816458e1859.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-6adde1aaacead18b7a8a1981bf23d2ee65d5d005.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-7a6766873051398fc971ca25833dfe23bd31c7f0.jar" />
+    </item>
+    <item
+        jar="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
+        <dex dex="Z:\WiFiGPSMapping\WifiMap\app\build\intermediates\pre-dexed\debug\classes-1b7cee95c4304ce72c5da248047ee01b77ddf1d8.jar" />
+    </item>
+    <item
+        jar="Z:\Anywall1\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="Z:\Anywall1\app\build\intermediates\pre-dexed\debug\classes-0cb3abdf65263638772f34d19592549b9572bef6.jar" />
     </item>
 
 </items>

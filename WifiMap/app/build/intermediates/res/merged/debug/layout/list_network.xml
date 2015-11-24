@@ -4,8 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical" android:background="@color/dark_grey">
 
-
-
     <TextView
         android:id="@+id/ssid_view"
         android:layout_width="fill_parent"
